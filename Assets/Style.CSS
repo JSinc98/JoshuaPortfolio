@@ -1,0 +1,46 @@
+* {
+    background-color: rgb(28, 19, 195);
+    color:white
+}
+
+body {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+}
+
+h2, h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+   width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+#topheader {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#Navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin:20px auto
+}
+
+ul li {
+    display:inline
+    margin: 20px;
+}
